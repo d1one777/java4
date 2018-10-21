@@ -1,8 +1,9 @@
+//C program
 #include <stdio.h>
 int main()
 {
-   // printf() displays the string inside quotation
-   printf("Hello, World!");
-   printf("First commit");
+   // first testik program
+   printf("Hello, GitHub!");
+   printf("Really commit");
    return 0;
 }
