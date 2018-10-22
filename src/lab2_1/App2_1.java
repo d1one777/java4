@@ -13,11 +13,11 @@ public class App2_1 {
 
         System.out.println("Lab 2.1");
         i = 11; //int initialization
-        System.out.println(i);
+        System.out.println("int i = " + i);
         d = 5.5; //double initialization
-        System.out.println(d);
-        c = 'd'; //char initialization
-        System.out.println(c);
+        System.out.println("double d = " + d);
+        c = 'z'; //char initialization
+        System.out.println("char c = " + c);
         by = 8; //byte initialization
         System.out.println(by);
         sh = 18; //short initialization
