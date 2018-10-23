@@ -7,7 +7,7 @@ public class App2_4 {
         //int[] cats = new int[8];
         int[] cats = new int [8];
         for (int i=0; i <8; i++) {
-            cats[i]= i+1;
+            cats[i]= i;
         }
         //String[] catNames = new String[8];
         String[] catsNames = {
@@ -23,7 +23,13 @@ public class App2_4 {
         for (int i =0; i<cats.length; i++)
             System.out.println("cat " + i + " = " + cats[i] + " cat name - " + catsNames[i]);
 
-        
+        System.out.println("foreach - - - -");
+
+        for (int i:cats)
+        {
+            System.out.println("cat " + i + " = " + cats[i] + " cat name - " + catsNames[i]);
+            
+        }
         }
 
 
